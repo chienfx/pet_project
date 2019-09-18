@@ -1,0 +1,259 @@
+body{
+	font-family: initial;
+	min-width: 1220px; 
+}
+/* ----------------header------------------ */
+header{
+	background-color: black;
+	height: 150px;
+}
+#lg{
+	width: 40%;
+	float: left;
+	padding-top: 40px;
+}
+#lg a{
+	float: right;
+	padding-right: 140px;
+}
+#men{
+	width: 59%;
+	float: left;
+	margin-top: 30px;
+
+}
+#menu{
+	border-right: 1px solid #fff;
+	width: 140px;
+	height: 90px;
+	text-align: center;
+	padding-top: 25px;
+	float: left;
+}
+#menu a{
+	color: #fff;
+	font-size: 25px;
+}
+#menu a:hover{
+	color: orange;
+}
+
+
+/* ----------------article------------------ */
+article{
+	width: 1190px;
+	height: 600px;
+	margin: 0 auto;
+	box-shadow: 1px 15px 15px gray;
+}
+#sli{
+	width: 75%;
+	height: 600px;
+	float: left;
+}
+#rsli{
+	width: 25%;
+	height: 600px;
+	float: right;
+	background-color: #424242;
+}
+#aa{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 180PX;
+}
+
+
+/* ----------------section 1------------------ */
+#section1{
+	margin-top: 50px;
+	width: 100%;
+	height: 750px;
+	background-color: #FAFAFA;
+	border: 1px solid #E6E6E6;
+}
+#left{
+	width: 53.95%;
+	height: 750px;
+	float: left;
+}
+#left div span b{
+	color: #2E9AFE;
+	font-size: 35px;
+}
+#leftbao{
+	margin: 70px 0 0 160px;
+}
+#left1{
+	padding:0 0 20px 0;
+}
+#d1 a{
+	text-decoration: none;
+	color: orange;
+}
+.d2 span{
+	font-size: 13px;
+}
+#d1 a:hover{
+	color: gray;
+}
+#right{
+	width: 45.95%;
+	height: 750px;
+	float: left;
+}
+#right div span b{
+	color: #2E9AFE;
+	font-size: 35px;
+}
+#day{
+	font-size: 13px;
+	width: 70%;
+}
+#pan2{
+	font-size: 13px;
+}
+#rightbao{
+	margin: 70px 0 0 0;
+}
+#panday a{
+	text-decoration: none;
+	color: orange;
+}
+#panday a:hover{
+	color: gray;
+}
+
+
+/* ----------------section 2------------------ */
+#section2{
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+}
+#chu span b{
+	font-size: 35px;
+	color: #2E9AFE;
+}
+#chu{
+	padding-top: 65px;
+}
+#cc span b a{
+	text-decoration: none;
+	font-size: 13px;
+	color: orange;
+}
+#cc span{
+	font-size: 12px;
+}
+#cc{
+		width: 100%;
+		height: 170px;
+		display: -webkit-flex;
+  		display: flex;
+  		padding-top: 30px;
+	}
+#cc div { 
+  		width: 33%;
+  		height: 170px;
+	}
+#im{
+	padding-top: 8px;
+}	
+#cc span b a:hover{
+	color: gray;
+}
+
+/* ----------------footer------------------ */
+
+footer{
+	width: 100%;
+	background-color: black;
+	height: 450px;
+	color: #FAFAFA;
+}
+#leftft{
+	width: 49.90%;
+	height: 450px;
+	float: left;
+}
+#leftft span b{
+	font-size: 35px;
+}
+#inl{
+	padding-top: 70px;
+}
+#rightft{
+	width: 49.90%;
+	height: 450px;
+	float: left;
+}
+#rightft span b{
+	font-size: 35px;
+}
+#inl1{
+	padding-top: 70px;
+	width: 80%;
+	float: right;
+}
+#bottom{
+	width: 900px;
+	height: 140px;
+	background-color: #fff;
+	float: right;
+}
+#btl{
+	width: 450px;
+	height:140px;
+	padding-top: 55px;
+	float: left;
+}
+#btr{
+	width: 450px;
+	height: 140px;
+	float: left;
+	padding-top: 55px;
+	padding-bottom: 20px;
+}
+/* back to top */
+.lentop {
+	display:none;
+	bottom: 7%;
+	right: 10px;
+	cursor: pointer;
+	position: fixed;
+	z-index: 1000;
+}
+.lentop img {
+	width:36px;
+	height:36px;
+}
+/* chữ nháy */
+@-webkit-keyframes my {
+0% { color: #2E9AFE; } 
+50% { color: #CEE3F6;  } 
+100% { color: #2E9AFE;  } 
+}
+@-moz-keyframes my { 
+0% { color: #2E9AFE;  } 
+50% { color: #CEE3F6;  }
+100% { color: #2E9AFE;  } 
+}
+@-o-keyframes my { 
+0% { color: #2E9AFE; } 
+50% { color: #CEE3F6; } 
+100% { color: #2E9AFE;  } 
+}
+@keyframes my { 
+0% { color: #2E9AFE;  } 
+50% { color: #CEE3F6;  }
+100% { color: #2E9AFE;  } 
+} 
+.test {
+font-size:24px;
+font-weight:bold;
+-webkit-animation: my 700ms infinite;
+-moz-animation: my 700ms infinite; 
+-o-animation: my 700ms infinite; 
+animation: my 700ms infinite;
+}
